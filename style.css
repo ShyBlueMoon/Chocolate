@@ -1,0 +1,118 @@
+/* This is a single-line comment */
+
+html {
+  background-color: rgb(242, 119 , 152);
+}
+
+  body {
+    margin: 20px;
+  }
+
+  /* MENU */
+  nav {
+    position: fixed;
+    top: 0;
+    margin-top: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    position: static;
+    width: 100%;
+    overflow: hidden;
+  }
+
+    #menu {
+      background: rgb(0, 179 , 193);
+      overflow: hidden;
+      position: sticky;
+    }
+
+    .link-1 {
+      transition: 0.4s;
+      color: #ffffff;
+      font-size: 20px;
+      text-decoration: none;
+      padding: 0 10px;
+      margin: 0 10px;
+    }
+
+    .link-1:hover {
+      background-image: url(https://hersheys.vteximg.com.br/arquivos/loader-12.gif);
+      color: #EEA200;
+      padding: 24px 10px;
+      object-fit:fill;
+    }
+  
+  h1 {
+    margin: 30px;
+    text-align: center;
+    color: rgb(63, 0 , 11);
+  }
+  
+  /* Tres chocolates baloes */
+  .tresbaloes {
+    border: black dotted 3px;
+  }
+
+  /* Lista de três ingredientes */
+  #caixamix {
+    border: dashed 2px;
+    border-color: rgb(0, 179 , 193);
+    width: 200px;
+    padding: 15px;
+    padding-top: 0px;
+    text-align: center;
+  }
+    
+  h2 {
+    color: rgb(0, 179 , 193);
+    padding-bottom: 5px; 
+  }
+
+  .sucopinklemon {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .imagemsuco {
+    width: 155px;
+    height: 100px;
+    padding: 0px;
+    object-fit:cover;
+  }
+
+  .descricaosuco {
+    margin-bottom: 45px;
+  }
+
+  .crocante {
+    text-shadow: rgb(63, 0 , 11);
+    padding-bottom: 10px;
+  }
+
+  .cristal {
+    width: 150px;
+    height: 100px;
+    padding: 0px;
+    object-fit:cover;
+  }
+
+  .descricaocrocante {
+    margin-bottom: 45px;
+  }
+  
+  .tresbaloes {
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  .chocolate {
+    padding-bottom: 5px;
+  }
+
+  .imagemchocolate {
+    width: 170px;
+    height: 120px;
+    padding: 0px;
+    object-fit:contain;
+  }
